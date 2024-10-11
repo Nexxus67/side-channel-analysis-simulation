@@ -13,6 +13,28 @@ Este script genera datos simulados relacionados con procesos criptográficos y l
 
 ![Plano Complejo y espectro de frecuencia](https://i.imgur.com/576OkKA.png) 
 
+
+### Interpretación de los Gráficos
+
+1. **Plano Complejo de Amplitud vs Fase**
+   - **Ejes**:
+     - **Eje X (Amplitud)**: Representa la magnitud de los datos simulados. Valores más altos indican mayor amplitud.
+     - **Eje Y (Fase)**: Representa la fase de las señales, lo que puede ayudar a entender la posición en el ciclo de la onda.
+   - **Interpretación**:
+     - Los puntos en el gráfico indican la relación entre la amplitud y la fase de las señales simuladas.
+     - Si observas un patrón o agrupaciones de puntos, esto puede indicar correlaciones o comportamientos similares entre diferentes muestras de datos.
+     - La dispersión de puntos puede mostrar variabilidad en los datos, que podría ser relevante para el análisis de patrones ocultos en datos cifrados.
+
+2. **Espectro de Frecuencias**
+   - **Ejes**:
+     - **Eje X (Frecuencia)**: Representa las frecuencias de las señales en el dominio de Fourier. Puede incluir valores negativos y positivos debido a la naturaleza de la transformada de Fourier.
+     - **Eje Y (Magnitud)**: Muestra la amplitud de cada frecuencia. Valores más altos indican componentes de frecuencia más fuertes en la señal.
+   - **Interpretación**:
+     - Las picos en el gráfico indican frecuencias dominantes en los datos. Un pico alto sugiere que esa frecuencia tiene un impacto significativo en la señal.
+     - La forma del espectro puede revelar características sobre los datos. Por ejemplo, un espectro con muchos picos puede indicar ruido o variabilidad, mientras que uno con picos bien definidos puede sugerir señales más estables o predecibles.
+     - Observando las frecuencias que tienen mayor magnitud, se puede inferir sobre patrones en los datos y potencialmente identificar debilidades en esquemas de cifrado si ciertas frecuencias son anómalas.
+
+
 ## 🚀 Comenzando
 
 ### Requisitos
