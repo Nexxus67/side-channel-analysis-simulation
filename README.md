@@ -11,8 +11,7 @@ Este script genera datos simulados relacionados con procesos criptográficos y l
 
 ### 🎥 Ejemplo de Visualización
 
-![Plano Complejo](https://via.placeholder.com/500x300?text=Plano+Complejo) 
-![Espectro de Frecuencias](https://via.placeholder.com/500x300?text=Espectro+de+Frecuencias) 
+![Plano Complejo y Espectro de Frecuencia]([https://via.placeholder.com/500x300?text=Plano+Complejo](https://imgur.com/576OkKA)) 
 
 ## 🚀 Comenzando
 
