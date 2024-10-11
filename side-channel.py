@@ -69,42 +69,6 @@ def plot_complex_plane(amplitude, phase):
 
 def plot_frequency_spectrum(frequencies, magnitude):
     plt.subplot(1, 2, 2)
-    plt.plot(frequencies, magnitude, label='Datos de Frecuencia', color='green', linestyle='--')
-    plt.axhline(y=np.mean(magnitude), color='red', linestyle='--', label='Media')
-    plt.title("Espectro de Frecuencias")
-    plt.xlabel("Frecuencia")
-    plt.ylabel("Magnitud")
-    plt.legend()
-    plt.xlim(-0.5, 0.5)
-
-def analyze_data(data):
-    print("Estadísticas de los datos:")
-    print(f"Media: {np.mean(data)}")
-    print(f"Desviación estándar: {np.std(data)}")
-    print(f"Máximo: {np.max(data)}")
-    print(f"Mínimo: {np.min(data)}")
-
-def main():
-    show_intro()
-    while True:
-        data_type = get_data_type()
-        n_samples, noise_level = get_parameters()
-        time_series = generate_data(n_samples, data_type, noise_level)
-
-        amplitude = np.abs(time_series)
-        phase = np.angle(fft(time_series))
-        complex_data = amplitude * np.exp(1j * phase)
-
-        freq_data = fft(complex_data)
-        frequencies = np.fft.fftfreq(len(freq_data))
-        magnitude = np.abs(freq_data)
-
-        plt.figure(figsize=(12, 6))
-        plot_complex_plane(amplitude, phase)
-        plot_frequency_spectrum(frequencies, magnitude)
-
-def plot_frequency_spectrum(frequencies, magnitude):
-    plt.subplot(1, 2, 2)
     
     plt.plot(frequencies, magnitude, color='lime', linestyle='--', label='Datos de Frecuencia')  
 
@@ -118,8 +82,6 @@ def plot_frequency_spectrum(frequencies, magnitude):
 
 
 
-
-
 def analyze_data(data):
     print("Estadísticas de los datos:")
     print(f"Media: {np.mean(data)}")
@@ -145,19 +107,6 @@ def main():
         plt.figure(figsize=(12, 6))
         plot_complex_plane(amplitude, phase)
         plot_frequency_spectrum(frequencies, magnitude)
-
-        plt.tight_layout()
-        plt.show(block=False)  # Mantiene el gráfico abierto
-        plt.pause(1)  
-
-        analyze_data(time_series)
-
-        if input("¿Deseas realizar otra simulación? (s/n): ").lower() != 's':
-            break
-        plt.clf()
-
-if __name__ == "__main__":
-    main()
 
         plt.tight_layout()
         plt.show(block=False)  # Mantiene el gráfico abierto

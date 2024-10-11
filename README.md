@@ -15,6 +15,8 @@ Este script genera datos simulados relacionados con procesos criptográficos y l
 
 ![Plano Complejo y espectro de frecuencia](https://i.imgur.com/BCR70hL.png) 
 
+Simulacion de channel-side attack con 8192 muestras y 0.05 ruido
+
 ### Interpretación de los Gráficos
 
 1. **Plano Complejo de Amplitud vs Fase**
