@@ -17,6 +17,11 @@ Este script genera datos simulados relacionados con procesos criptográficos y l
 
 Simulacion de channel-side attack con 8192 muestras y 0.05 ruido
 
+Media: 0.4280
+Desviación estándar: 0.2641
+Máximo: 0.9411
+Mínimo: 0.0001
+
 ### Interpretación de los Gráficos
 
 1. **Plano Complejo de Amplitud vs Fase**

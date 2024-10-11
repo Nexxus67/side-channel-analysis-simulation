@@ -52,6 +52,18 @@ def show_intro():
     print("Este programa simula datos de cifrado y analiza patrones en el plano complejo.\n")
     input("Presiona Enter para continuar...")
 
+def analyze_with_fft(data):
+    N = len(data)
+    fft_result = fft(data)
+    freqs = np.fft.fftfreq(N, d=1.0)
+    plt.figure()
+    plt.plot(freqs, np.abs(fft_result))
+    plt.title('Espectro de Frecuencia de los Datos Simulados')
+    plt.xlabel('Frecuencia (Hz)')
+    plt.ylabel('Amplitud')
+    plt.show()
+
+
 def get_data_type():
     options = {
         "1": "Consumo de Energía",
@@ -151,4 +163,3 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\nEjecución interrumpida por el usuario.")
         sys.exit(0)
-
