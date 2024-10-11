@@ -69,7 +69,7 @@ def plot_complex_plane(amplitude, phase):
 
 def plot_frequency_spectrum(frequencies, magnitude):
     plt.subplot(1, 2, 2)
-    plt.plot(frequencies, magnitude, label='Datos de Frecuencia', color='magenta', linestyle='--')
+    plt.plot(frequencies, magnitude, label='Datos de Frecuencia', color='green', linestyle='--')
     plt.axhline(y=np.mean(magnitude), color='red', linestyle='--', label='Media')
     plt.title("Espectro de Frecuencias")
     plt.xlabel("Frecuencia")
