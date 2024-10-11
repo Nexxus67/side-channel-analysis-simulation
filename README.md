@@ -1,6 +1,6 @@
 # 🔮 Análisis  de Datos Cifrados 🔐
 
-Este código genera simulaciones de datos, como consumo de energía o tiempos de respuesta, durante operaciones criptográficas para realizar análisis en el plano complejo y espectro de frecuencias. Presenta una introducción ASCII, permite al usuario seleccionar el tipo de datos, definir parámetros de ruido y número de muestras, y luego genera y visualiza los datos en gráficos de amplitud-fase y espectro de frecuencias. También calcula estadísticas básicas del conjunto de datos simulado.
+Este código genera simulaciones de datos, como consumo de energía o tiempos de respuesta, durante operaciones criptográficas para realizar análisis en el plano complejo y espectro de frecuencias usando la transformada rapida de Fourier. Presenta una introducción ASCII, permite al usuario seleccionar el tipo de datos, definir parámetros de ruido y número de muestras, y luego genera y visualiza los datos en gráficos de amplitud-fase y espectro de frecuencias. También calcula estadísticas básicas del conjunto de datos simulado.
 
 Funcionalidad para el usuario:
 El usuario puede simular datos relacionados con posibles ataques de canal lateral, explorar patrones complejos y analizar el espectro de frecuencias de los datos, lo cual puede ser útil para detectar vulnerabilidades en esquemas criptográficos o comprender variaciones en el tiempo de ejecución y consumo de energía.
