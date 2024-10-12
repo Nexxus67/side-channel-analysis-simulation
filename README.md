@@ -13,9 +13,9 @@ Este script genera datos simulados relacionados con procesos criptográficos y l
 
 ### 🎥 Ejemplo de Visualización
 
-![Plano Complejo y espectro de frecuencia](https://i.imgur.com/BCR70hL.png) 
+![Plano Complejo y espectro de frecuencia](https://i.imgur.com/vIXInVF.png) 
 
-Simulacion de channel-side attack con 8192 muestras y 0.05 ruido
+Simulacion de channel-side attack con 1024 muestras y 0.000005 ruido
 
 Media: 0.4280
 Desviación estándar: 0.2641
