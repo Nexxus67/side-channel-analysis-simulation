@@ -43,6 +43,9 @@ Mínimo: 0.0001
      - Observando las frecuencias que tienen mayor magnitud, se puede inferir sobre patrones en los datos y potencialmente identificar debilidades en esquemas de cifrado si ciertas frecuencias son anómalas.
 
 
+Las espirales en el gráfico de altitud vs. fase muestran patrones repetitivos que sugieren correlaciones en el ruido del canal y en los datos procesados, lo que indica filtrado de información por el sistema. Esto significa que las variaciones en la fase o altitud están ligadas a la actividad interna del sistema, como el consumo de energía o el procesamiento de instrucciones. Estas correlaciones permiten que un atacante con acceso a mediciones de este tipo pueda inferir datos sensibles, como claves criptográficas, a partir de pequeñas variaciones, exponiendo el sistema a riesgos de ataques de canal lateral que explotan dichas filtraciones predictivas.
+
+
 ## 🚀 Comenzando
 
 ### Requisitos
